@@ -36,8 +36,9 @@ class Animal:
 #         return "Woof!"
 
 class Animal:
-    def __init__(self, name):
+    def __init__(self, name, species):
         self.name = name
+        self.species = species
 
 class Dog(Animal):
     def __init__(self, name, breed):
